@@ -1,7 +1,7 @@
 using DG.Tweening;
 using UnityEngine;
 
-public class FourthObject : TweenObject
+public class MultiAnimator : TweenObject
 {
     [SerializeField] private Vector3 _scaleEndPoint;
     [SerializeField] private Vector3 _rotationEndPoint;

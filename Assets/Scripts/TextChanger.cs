@@ -8,7 +8,12 @@ public class TextChanger : MonoBehaviour
     [SerializeField] private Text _text2;
     [SerializeField] private Text _text3;
 
-    void Start()
+    private void Start()
+    {
+        ChangeText();
+    }
+
+    private void ChangeText()
     {
         _text1.DOText("Changed text", 3f);
         _text2.DOText("Added text", 3f).SetRelative();

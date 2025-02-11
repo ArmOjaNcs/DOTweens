@@ -1,6 +1,6 @@
 using DG.Tweening;
 
-public class SecondObject : TweenObject
+public class Rotator : TweenObject
 {
     private protected override void Move()
     {

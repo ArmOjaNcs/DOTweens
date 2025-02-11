@@ -1,6 +1,6 @@
 using DG.Tweening;
 
-public class ThirdObject : TweenObject
+public class ScaleChanger : TweenObject
 {
     private protected override void Move()
     {
