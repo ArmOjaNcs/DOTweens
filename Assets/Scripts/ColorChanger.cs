@@ -17,7 +17,7 @@ public class ColorChanger : MonoBehaviour
 
     private void ChangeColor()
     {
-        _indexOfColor = Random.Range(0, _colors.Count);
+        _indexOfColor = ++_indexOfColor % _colors.Count;
         _renderer.material.DOColor(_colors[_indexOfColor], _duration).OnComplete(() => ChangeColor());
     }
 }
