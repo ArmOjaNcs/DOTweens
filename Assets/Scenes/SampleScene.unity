@@ -131,6 +131,8 @@ GameObject:
   - component: {fileID: 24555771}
   - component: {fileID: 24555770}
   - component: {fileID: 24555769}
+  - component: {fileID: 24555775}
+  - component: {fileID: 24555774}
   - component: {fileID: 24555773}
   m_Layer: 0
   m_Name: FourthObject
@@ -237,13 +239,42 @@ MonoBehaviour:
   m_GameObject: {fileID: 24555768}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb05c1feb474b3d4f8bc4c5a61d477f8, type: 3}
+  m_Script: {fileID: 11500000, guid: 9b13201187d708842bdaa5de0f126717, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EndPoint: {x: 2, y: 0, z: 9.29}
+  EndPoint: {x: 2, y: 5, z: 2}
   Duration: 2
-  _scaleEndPoint: {x: 2, y: 5, z: 2}
-  _rotationEndPoint: {x: 90, y: 0, z: 180}
+  LoopType: 1
+--- !u!114 &24555774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 24555768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5851b908a0db03441ad3019acc740f6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EndPoint: {x: 90, y: 0, z: 180}
+  Duration: 2
+  LoopType: 1
+--- !u!114 &24555775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 24555768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b786a8e31a670bb41a3c1ff507fab98c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EndPoint: {x: 2, y: 0, z: 9.2}
+  Duration: 2
+  LoopType: 1
 --- !u!1 &676799648
 GameObject:
   m_ObjectHideFlags: 0
@@ -369,6 +400,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EndPoint: {x: 0, y: 0, z: 0}
   Duration: 1
+  LoopType: 1
 --- !u!1 &689304567
 GameObject:
   m_ObjectHideFlags: 0
@@ -720,6 +752,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EndPoint: {x: 360, y: 0, z: 90}
   Duration: 1
+  LoopType: 1
 --- !u!1 &777773078
 GameObject:
   m_ObjectHideFlags: 0
@@ -843,6 +876,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EndPoint: {x: 2, y: 3, z: 0}
   Duration: 2
+  LoopType: 1
 --- !u!1 &941755680
 GameObject:
   m_ObjectHideFlags: 0
